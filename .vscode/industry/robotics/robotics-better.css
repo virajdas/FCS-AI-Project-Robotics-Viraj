@@ -32,6 +32,13 @@ header {
 	font-size: 24px;
 	font-weight: 900;
 	text-transform: uppercase;
+	text-decoration: none;
+	cursor: default;
+}
+
+.logo a {
+	color: white !important;
+	text-decoration: none !important;
 }
 
 .navigation {
@@ -48,6 +55,7 @@ header {
 	padding: 6px 15px;
 	border-radius: 20px;
 	margin: 10 10px;
+	background: rgba(0, 0, 0, 0.15);
 }
 
 .navigation a:hover, .navigation a.active {
