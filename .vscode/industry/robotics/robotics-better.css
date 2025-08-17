@@ -75,6 +75,19 @@ header {
 	text-align: left;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+#subtext {
+	position: absolute;
+	left: 0;
+	top: 38%;
+	transform: translateY(-50%);
+	font-size: 1.5em;
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+	margin-left: 110px; /* Optional: add some space from the edge */
+	text-align: left;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 
 .parallax img {
 	position: absolute;
