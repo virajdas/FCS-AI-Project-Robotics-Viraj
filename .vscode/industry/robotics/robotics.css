@@ -3451,9 +3451,7 @@ input, select, textarea {
 /* AI Section */
 
 .ai-section {
-    background: #0a1833;
-    background-image: radial-gradient(ellipse at 20% 20%, #1a2238 0%, transparent 70%),
-                      radial-gradient(ellipse at 80% 80%, #232b45 0%, transparent 70%);
+    background-image: url("../../images/robotics/landing/abstract.png");
     position: relative;
     overflow: hidden;
     z-index: 2;
@@ -3486,13 +3484,13 @@ input, select, textarea {
 }
 
 .ai-block {
-    max-width: 900px;
+    max-width: 75%;
     margin: 60px auto 0 auto;
     padding: 40px 36px;
-    background: rgba(24, 32, 56, 0.85);
+    background: rgba(24, 32, 56, 0.2);
     border-radius: 24px;
     box-shadow: 0 8px 32px 0 rgba(10,24,51,0.18);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(100px);
     border: 1px solid rgba(44, 54, 80, 0.4);
     transition: transform 0.7s cubic-bezier(.23,1.01,.32,1), box-shadow 0.7s;
     opacity: 0;
@@ -3666,7 +3664,7 @@ input, select, textarea {
 
 /* --- Works Cited Formatting --- */
 .works-cited {
-    margin: 80px auto 0 auto;
+    /*margin: 80px auto 0 auto;
     max-width: 900px;
     background: rgba(24,32,56,0.92);
     border-radius: 24px;
@@ -3677,7 +3675,19 @@ input, select, textarea {
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     color: #b3e0ff;
     position: relative;
-    z-index: 1;
+    z-index: 1;*/
+	max-width: 30%;
+    margin: 60px auto 0 auto;
+    padding: 40px 36px;
+    background: rgba(24, 32, 56, 0.2);
+    border-radius: 24px;
+    box-shadow: 0 8px 32px 0 rgba(10,24,51,0.18);
+    backdrop-filter: blur(100px);
+    border: 1px solid rgba(44, 54, 80, 0.4);
+    transition: transform 0.7s cubic-bezier(.23,1.01,.32,1), box-shadow 0.7s;
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+    animation: fadeInUp 1.2s forwards;
 }
 .works-cited h2 {
     font-size: 2em;
