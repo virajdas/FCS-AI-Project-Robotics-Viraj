@@ -24,172 +24,77 @@
         <img src="../../images/robotics/landing/Earth.png" id="parallax-2">
         <img src="../../images/robotics/landing/Robot.png" id="parallax-3">
     </section>
-    <section class="sec">
-        <h2>Current Level of AI Usage</h2>
-        <div class="section-desc">
-            <p class="big-text">
-                <strong>AI in robotics is <span style="color:#6ecaff;">high and still rising</span>.</strong>
-                Modern robots rely on AI for <span style="color:#b3e0ff;">perception</span> (vision/SLAM), <span style="color:#b3e0ff;">planning</span> (A*/trajectory optimization), and <span style="color:#b3e0ff;">autonomy</span> (reactive, probabilistic, and learning-based control)<sup>1</sup> across most major sectors.
-            </p>
-            <p class="big-text">
-                Landmark surveys and tutorials document this arc from symbolic planning to probabilistic SLAM and learning-driven autonomy now fielded in hospitals, warehouses, and planetary missions.<sup>2</sup>
-            </p>
-        </div>
-        <div class="section-divider"></div>
-        
-        <h2>Historical Growth of AI in Robotics</h2>
-        <div class="timeline large-timeline">
-            <div class="timeline-event interactive">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <span class="timeline-year">Late 1960s–1970s</span>
-                    <div class="timeline-title">First AI Robot Era</div>
-                    <div class="timeline-desc">
-                        <strong>Shakey (SRI):</strong> Fused computer vision, symbolic STRIPS planning, and action—establishing the template for AI-in-robotics.<sup>3</sup><br>
-                        <strong>A* Search (1968):</strong> Formalized heuristic pathfinding used in robot navigation, from mobile bases to manipulators.<sup>4</sup>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-event interactive">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <span class="timeline-year">1980s</span>
-                    <div class="timeline-title">Behavior-Based Control</div>
-                    <div class="timeline-desc">
-                        <strong>Subsumption Architecture:</strong> Introduced robust, layered, reactive control for real-time autonomy in the real world.<sup>5</sup>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-event interactive">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <span class="timeline-year">1990s–2000s</span>
-                    <div class="timeline-title">Probabilistic Robotics & SLAM</div>
-                    <div class="timeline-desc">
-                        <strong>SLAM:</strong> Tutorials and proofs showed SLAM is solvable and provided the Bayesian toolkit (EKF/graph-based) that underpins today’s navigation.<sup>6</sup>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-event interactive">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <span class="timeline-year">2010s</span>
-                    <div class="timeline-title">Deep Perception & Resilient Autonomy</div>
-                    <div class="timeline-desc">
-                        <strong>Robust Perception Age:</strong> SLAM’s maturation enabled large-scale real deployments.<sup>7</sup>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-event interactive">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <span class="timeline-year">2020s</span>
-                    <div class="timeline-title">Learning-Based Control & Domain Rollouts</div>
-                    <div class="timeline-desc">
-                        <strong>Fielded Autonomy:</strong> Hospitals (AMRs), space (Perseverance AutoNav), and autonomous surgery reach preclinical success.<sup>8</sup>
-                    </div>
-                </div>
+    <section class="sec ai-section">
+        <div class="ai-block fade-in" style="animation-delay:0.1s;">
+            <h2 class="ai-title">Current Level of AI Usage</h2>
+            <div class="ai-desc">
+                <p>
+                    <strong>AI in robotics is <span class="ai-highlight">high and still rising</span>.</strong>
+                    Modern robots rely on AI for <span class="ai-subtle">perception</span> (vision/SLAM), <span class="ai-subtle">planning</span> (A*/trajectory optimization), and <span class="ai-subtle">autonomy</span> (reactive, probabilistic, and learning-based control)<sup>1</sup> across most major sectors.
+                </p>
+                <p>
+                    Landmark surveys and tutorials document this arc from symbolic planning to probabilistic SLAM and learning-driven autonomy now fielded in hospitals, warehouses, and planetary missions.<sup>2</sup>
+                </p>
             </div>
         </div>
-        <div class="section-divider"></div>
-        
-        <h2>First Known AI Application</h2>
-		    <img class="section-img" src="https://media.wired.com/photos/59331ef426780e6c04d2e6ee/master/pass/500004692-03-01.jpeg" alt="Shakey the Robot" style="animation-delay:0.6s;">
-
-        <div class="section-desc big-text">
-            <strong>Shakey the Robot (1966–1972):</strong>
-            <ul>
-                <li>Widely recognized as the first mobile system to <span style="color:#b3e0ff;">perceive</span>, <span style="color:#b3e0ff;">plan</span>, and <span style="color:#b3e0ff;">act</span> using integrated AI methods.<sup>3</sup></li>
-                <li>Combined computer vision, symbolic planning (STRIPS), and action execution.</li>
-                <li>Set the template for all future AI-driven robotics, influencing both academic research and real-world deployments.</li>
-                <li>Demonstrated autonomous navigation, obstacle avoidance, and task completion in a structured environment.</li>
+        <div class="ai-block fade-in" style="animation-delay:0.2s;">
+            <h2 class="ai-title">Historical Growth of AI in Robotics</h2>
+            <div class="ai-timeline">
+                <div class="ai-timeline-event"><span class="ai-timeline-year">1960s–1970s</span><span class="ai-timeline-dot"></span><span class="ai-timeline-desc">First AI Robot Era: Shakey fuses vision, planning, and action.</span></div>
+                <div class="ai-timeline-event"><span class="ai-timeline-year">1980s</span><span class="ai-timeline-dot"></span><span class="ai-timeline-desc">Behavior-Based Control: Subsumption architecture for real-time autonomy.</span></div>
+                <div class="ai-timeline-event"><span class="ai-timeline-year">1990s–2000s</span><span class="ai-timeline-dot"></span><span class="ai-timeline-desc">Probabilistic Robotics & SLAM: Bayesian navigation and mapping.</span></div>
+                <div class="ai-timeline-event"><span class="ai-timeline-year">2010s</span><span class="ai-timeline-dot"></span><span class="ai-timeline-desc">Deep Perception: Large-scale deployments, resilient autonomy.</span></div>
+                <div class="ai-timeline-event"><span class="ai-timeline-year">2020s</span><span class="ai-timeline-dot"></span><span class="ai-timeline-desc">Learning-Based Control: Fielded autonomy in hospitals, space, and surgery.</span></div>
+            </div>
+        </div>
+        <div class="ai-block fade-in" style="animation-delay:0.3s;">
+            <h2 class="ai-title">First Known AI Application</h2>
+            <img class="ai-img" src="https://media.wired.com/photos/59331ef426780e6c04d2e6ee/master/pass/500004692-03-01.jpeg" alt="Shakey the Robot">
+            <ul class="ai-list">
+                <li><strong>Shakey the Robot (1966–1972):</strong> First mobile system to perceive, plan, and act using integrated AI.</li>
+                <li>Combined computer vision, symbolic planning, and action execution.</li>
+                <li>Set the template for future AI-driven robotics.</li>
+                <li>Demonstrated autonomous navigation and task completion.</li>
             </ul>
         </div>
-        <div class="section-divider"></div>
-        
-        <h2>Notable Applications of AI in Robotics</h2>
-		    <img class="section-img" src="https://wevolver-project-images.s3.us-west-1.amazonaws.com/0.znmq5oj21rautomated_robotic_arms.jpg" alt="Robotics applications" style="animation-delay:0.8s;">
-
-        <div class="applications">
-            <div class="app-card">
-                <h3>Industrial & Human-Robot Collaboration</h3>
-                <p class="big-text">Safety-aware collaboration and intention-sensitive interfaces in factories.<sup>9</sup></p>
-            </div>
-            <div class="app-card">
-                <h3>Intralogistics / Warehouses (AMRs)</h3>
-                <p class="big-text">Planning, task allocation, and fleet control for AMRs.<sup>10</sup><br>Latest advances and limits in AMRs.<sup>11</sup></p>
-            </div>
-            <div class="app-card">
-                <h3>Healthcare & Surgery</h3>
-                <p class="big-text">Autonomous laparoscopic surgery (STAR system).<sup>12</sup><br>Hospital AMRs: benchmarking navigation.<sup>13</sup><br>FDA-cleared surgical robots by autonomy.<sup>14</sup></p>
-            </div>
-            <div class="app-card">
-                <h3>Space Robotics</h3>
-                <p class="big-text">Mars Perseverance: onboard autonomy (AutoNav, visual odometry, scene understanding).<sup>15</sup><br>Mars Exploration Rovers: long-duration visual odometry.<sup>16</sup></p>
-            </div>
-            <div class="app-card">
-                <h3>Underwater / Marine</h3>
-                <p class="big-text">AUVs tracking upwelling fronts using onboard perception & decision-making.<sup>17</sup></p>
-            </div>
-            <div class="app-card">
-                <h3>Aerial Drones</h3>
-                <p class="big-text">Fast autonomous quadrotor flight in GPS-denied settings.<sup>18</sup><br>Online collision-free trajectory generation on point clouds.<sup>19</sup></p>
-            </div>
-            <div class="app-card">
-                <h3>Agriculture</h3>
-                <p class="big-text">Phenotyping, precision farming, autonomy trends.<sup>20</sup><br>Harvesting, spraying, weeding platforms.<sup>21</sup><br>Core technologies for crop production.<sup>22</sup></p>
-            </div>
-            <div class="app-card">
-                <h3>Construction & Mining</h3>
-                <p class="big-text">Autonomous excavator system for material loading.<sup>23</sup><br>Automation trends toward fully autonomous mining systems.<sup>24</sup></p>
-            </div>
-            <div class="app-card">
-                <h3>Service & Domestic Robots</h3>
-                <p class="big-text">Service robots across domains.<sup>25</sup><br>Trust in home service robots.<sup>26</sup></p>
+        <div class="ai-block fade-in" style="animation-delay:0.4s;">
+            <h2 class="ai-title">Notable Applications</h2>
+            <div class="ai-app-grid">
+                <div class="ai-app-card">Industrial & Human-Robot Collaboration</div>
+                <div class="ai-app-card">Intralogistics / Warehouses (AMRs)</div>
+                <div class="ai-app-card">Healthcare & Surgery</div>
+                <div class="ai-app-card">Space Robotics</div>
+                <div class="ai-app-card">Underwater / Marine</div>
+                <div class="ai-app-card">Aerial Drones</div>
+                <div class="ai-app-card">Agriculture</div>
+                <div class="ai-app-card">Construction & Mining</div>
+                <div class="ai-app-card">Service & Domestic Robots</div>
             </div>
         </div>
-        <div class="section-divider"></div>
-        
-        <h2>Foundational Methods</h2>
-		    <img class="section-img" src="https://imageio.forbes.com/specials-images/imageserve/61d670b81998bdcbce034eac/AI-and-robotics/960x0.jpg?format=jpg&width=960" alt="AI methods in robotics" style="animation-delay:1s;">
-
-        <div class="section-desc big-text">
-            <ul>
-                <li>
-                    <strong>A* Search:</strong> Heuristic pathfinding algorithm, foundational for robot navigation and manipulation.<sup>4</sup>
-                    <br><span style="color:#b3e0ff;">Used in mobile robots, manipulators, and autonomous vehicles for efficient route planning.</span>
-                </li>
-                <li>
-                    <strong>Subsumption Architecture:</strong> Layered, reactive control enabling robust real-time autonomy.<sup>5</sup>
-                    <br><span style="color:#b3e0ff;">Allows robots to respond to dynamic environments and unexpected events.</span>
-                </li>
-                <li>
-                    <strong>SLAM (Simultaneous Localization and Mapping):</strong> Bayesian estimation (EKF/graph-based) for reliable localization and mapping in unknown spaces.<sup>6</sup>
-                    <br><span style="color:#b3e0ff;">Core to autonomous navigation in warehouses, hospitals, and planetary missions.</span>
-                </li>
-                <li>
-                    <strong>T-RO Survey:</strong> Comprehensive reviews and tutorials that underpin robust perception and mapping.<sup>6</sup>
-                </li>
+        <div class="ai-block fade-in" style="animation-delay:0.5s;">
+            <h2 class="ai-title">Foundational Methods</h2>
+            <ul class="ai-list">
+                <li><strong>A* Search:</strong> Heuristic pathfinding for navigation and manipulation.</li>
+                <li><strong>Subsumption Architecture:</strong> Layered, reactive control for robust autonomy.</li>
+                <li><strong>SLAM:</strong> Bayesian estimation for localization and mapping.</li>
+                <li><strong>T-RO Survey:</strong> Reviews and tutorials underpin robust perception.</li>
             </ul>
         </div>
-        <div class="section-divider"></div>
-        
-        <h2>AI Usage Over Time</h2>
-		    <img class="section-img" src="https://roboticsunleashed.com/wp-content/uploads/2023/12/robot-humanoid-using-laptop-800x450.jpg" alt="AI usage over time" style="animation-delay:1.2s;">
-
-        <div class="section-desc big-text">
-            <ul>
-                <li><strong>Symbolic era:</strong> Robots reasoned with search/planning (STRIPS, A*).<sup>4</sup></li>
-                <li><strong>Reactive era:</strong> Subsumption enabled robust real-time behavior.<sup>5</sup></li>
-                <li><strong>Probabilistic era:</strong> SLAM and Bayesian estimation delivered reliable localization/mapping.<sup>6</sup></li>
-                <li><strong>Learning-driven era:</strong> Robust perception, manipulation, and decision-making now power AMRs, AUVs, drones, construction/mining equipment, and space rovers.<sup>8</sup></li>
+        <div class="ai-block fade-in" style="animation-delay:0.6s;">
+            <h2 class="ai-title">AI Usage Over Time</h2>
+            <ul class="ai-list">
+                <li><strong>Symbolic era:</strong> Search/planning (STRIPS, A*).</li>
+                <li><strong>Reactive era:</strong> Subsumption for real-time behavior.</li>
+                <li><strong>Probabilistic era:</strong> SLAM and Bayesian estimation.</li>
+                <li><strong>Learning-driven era:</strong> Robust perception and autonomy in fielded robots.</li>
             </ul>
         </div>
-        <div class="section-divider"></div>
-        
-        <div class="conclusion big-text">
-            <strong>Conclusion:</strong> <br>
-            AI usage in robotics is <span style="color:#6ecaff;">high</span>. The peer-reviewed record shows a steady progression from early symbolic AI to probabilistic and learning-based autonomy, with mission-critical deployments (e.g., hospitals, warehouses, Mars) and domain-specific robots (agriculture, construction, mining, underwater, aerial). Multiple independent scholarly sources confirm broad, mature, and expanding AI adoption.<sup>1,2,8</sup>
+        <div class="ai-block fade-in" style="animation-delay:0.7s;">
+            <h2 class="ai-title">Conclusion</h2>
+            <div class="ai-desc">
+                <strong>AI usage in robotics is <span class="ai-highlight">high</span>.</strong>
+                The record shows a steady progression from symbolic AI to learning-based autonomy, with mission-critical deployments and domain-specific robots. Multiple scholarly sources confirm broad, mature, and expanding AI adoption.
+            </div>
         </div>
         <div class="works-cited">
             <h2>Works Cited</h2>
@@ -222,7 +127,6 @@
                 <li>ACM Digital Library, <a href="https://dl.acm.org/" target="_blank">Trust in Home Robots</a></li>
             </ol>
         </div>
-    </div>
     </section>
     <script src="robotics.js"></script>
 </body>
