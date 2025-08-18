@@ -3496,12 +3496,8 @@ input, select, textarea {
     transition: transform 0.7s cubic-bezier(.23,1.01,.32,1), box-shadow 0.7s;
     opacity: 0;
     transform: translateY(40px) scale(0.98);
+	box-shadow: 0 12px 48px 0 rgba(177, 159, 251, 0.2);
     animation: fadeInUp 1.2s forwards;
-}
-
-.ai-block:hover {
-    box-shadow: 0 12px 48px 0 rgba(10,24,51,0.32);
-    transform: translateY(0px) scale(1.01);
 }
 
 @keyframes fadeInUp {
@@ -3525,16 +3521,14 @@ input, select, textarea {
     border-left: 4px solid #6ecaff;
     padding-left: 18px;
     transition: font-size 0.3s cubic-bezier(.23,1.01,.32,1), color 0.3s, letter-spacing 0.3s, text-shadow 0.3s;
-    cursor: pointer;
     position: relative;
     z-index: 1;
 }
 .ai-title:hover {
-    font-size: 2.8em;
+    /*font-size: 2.8em;*/
     color: #b3e0ff;
-    letter-spacing: 0.16em;
+    /*letter-spacing: 0.16em;*/
     text-shadow: 0 4px 48px #6ecaff, 0 0px 32px #232b45;
-    border-left: 6px solid #b3e0ff;
 }
 
 .ai-desc {
@@ -3644,7 +3638,7 @@ input, select, textarea {
 
 .ai-app-card {
     background: linear-gradient(120deg, #1a2238 60%, #232b45 100%);
-    color: #b3e0ff;
+    color: white;
     font-size: 1.1em;
     font-weight: 500;
     border-radius: 16px;
@@ -3652,12 +3646,15 @@ input, select, textarea {
     box-shadow: 0 2px 16px #0a1833;
     border: 1px solid #2c3650;
     transition: box-shadow 0.4s, transform 0.4s;
-    cursor: pointer;
+	text-align: center;
     animation: fadeInUp 1.2s forwards;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .ai-app-card:hover {
-    box-shadow: 0 8px 32px #6ecaff;
     transform: scale(1.04);
     color: #6ecaff;
     background: linear-gradient(120deg, #232b45 60%, #1a2238 100%);
@@ -3677,7 +3674,7 @@ input, select, textarea {
     color: #b3e0ff;
     position: relative;
     z-index: 1;*/
-	max-width: 30%;
+	max-width: 50%;
     margin: 60px auto 0 auto;
     padding: 40px 36px;
     background: rgba(24, 32, 56, 0.2);
