@@ -3344,6 +3344,7 @@ input, select, textarea {
 	min-height: 100vh;
 	overflow: auto;
 	color: white;
+	overflow-x: hidden;
 }
 
 .header {
@@ -3427,7 +3428,7 @@ input, select, textarea {
 
 #parallax-3 {
 	width: 150%;
-	left: -300px; /* Adjusted to fit the new width */
+	left: -300px;
 }
 
 .sec {
