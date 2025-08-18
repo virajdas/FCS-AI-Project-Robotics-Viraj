@@ -3676,7 +3676,7 @@ input, select, textarea {
     color: #b3e0ff;
     position: relative;
     z-index: 1;*/
-	max-width: 30%;
+	max-width: 50%;
     margin: 60px auto 0 auto;
     padding: 40px 36px;
     background: rgba(24, 32, 56, 0.2);
