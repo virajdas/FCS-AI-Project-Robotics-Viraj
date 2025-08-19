@@ -3402,6 +3402,14 @@ input, select, textarea {
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+#text-aboutme {
+	position: absolute;
+	font-size: 7em;
+	color: white;
+	top: 50%;
+	margin-left: 50px;
+}
+
 #subtext {
 	position: absolute;
 	left: 0;
@@ -3413,6 +3421,13 @@ input, select, textarea {
 	text-align: left;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+#subtext-aboutme {
+	position: absolute;
+	color: white;
+	top: 45%;
+}
+
 
 
 .parallax img {
@@ -3429,6 +3444,18 @@ input, select, textarea {
 #parallax-3 {
 	width: 150%;
 	left: -300px;
+}
+
+#parallax-4 {
+	width: 105%;
+	top: 250px;
+	left: -50px;
+}
+
+#parallax-5 {
+	width: 105%;
+	top: 250px;
+	left: -50px;
 }
 
 .sec {
