@@ -3767,3 +3767,88 @@ input, select, textarea {
     .ai-title:hover { font-size: 1.4em; }
     .works-cited h2 { font-size: 1.2em; }
 }
+
+/* Add to robotics.css for Shakey the Robot emphasis */
+
+.shakey-highlight-container {
+    background: linear-gradient(120deg, #232b45 60%, #1a2238 100%,0.2);
+    border-radius: 24px;
+    box-shadow: 0 8px 32px 0 rgba(110,202,255,0.18), 0 0 32px #6ecaff44;
+    padding: 32px 24px 32px 24px;
+    margin: 0 auto 24px auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    border: 2px solid #6ecaff;;
+}
+
+.shakey-robot-logo img {
+    width: 300px;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px #0a1833, 0 0 32px #6ecaff88;
+    margin-bottom: 18px;
+    border: 2px solid #6ecaff;
+    background: #0a1833;
+}
+
+.shakey-robot-title {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.shakey-robot-glow {
+    font-size: 2.6em;
+    font-weight: 900;
+    color: #6ecaff;
+    letter-spacing: 0.15em;
+    text-shadow:
+        0 0 24px #6ecaff,
+        0 0 48px #232b45,
+        0 2px 24px #0a1833;
+    background: linear-gradient(90deg, #6ecaff 60%, #b3e0ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    margin-bottom: 6px;
+    animation: shakeyPulse 2.5s infinite;
+}
+
+@keyframes shakeyPulse {
+    0%, 100% { text-shadow: 0 0 24px #6ecaff, 0 0 48px #232b45, 0 2px 24px #0a1833; }
+    50% { text-shadow: 0 0 48px #6ecaff, 0 0 64px #232b45, 0 4px 32px #0a1833; }
+}
+
+.shakey-robot-years {
+    font-size: 1.2em;
+    color: #b3e0ff;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    background: rgba(24,32,56,0.7);
+    border-radius: 8px;
+    padding: 4px 12px;
+    margin-top: 2px;
+    display: inline-block;
+    box-shadow: 0 0 12px #6ecaff44;
+}
+
+.shakey-robot-list {
+    margin-top: 12px;
+    font-size: 1.15em;
+    color: #e0e6f7;
+    text-align: left;
+    width: 100%;
+}
+
+.shakey-robot-keyword {
+    color: #6ecaff;
+    font-weight: 700;
+    text-shadow: 0 0 8px #6ecaff88;
+    background: rgba(24,32,56,0.5);
+    border-radius: 6px;
+    padding: 2px 8px;
+    margin: 0 2px;
+}
