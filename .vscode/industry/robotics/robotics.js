@@ -33,8 +33,8 @@ window.addEventListener('scroll', function() {
 
     // Profile images
     const viraj = document.getElementById('parallax-4');
-    if (viraj) viraj.style.transform = `translateY(${scrollY * -0.5}px)`;
+    if (viraj) viraj.style.transform = `translateY(${scrollY * 0.5}px)`;
 
     const aman = document.getElementById('parallax-5');
-    if (aman) aman.style.transform = `translateY(${scrollY * -0.5}px)`;
+    if (aman) aman.style.transform = `translateY(${scrollY * 0.5}px)`;
 });
