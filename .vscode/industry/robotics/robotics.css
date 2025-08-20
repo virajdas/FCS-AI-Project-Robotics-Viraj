@@ -3767,3 +3767,12 @@ input, select, textarea {
     .ai-title:hover { font-size: 1.4em; }
     .works-cited h2 { font-size: 1.2em; }
 }
+
+.side-by-side {
+	display: flex;
+	column-gap: 10%;
+}
+
+.side-by-side h2{
+	text-align: center;
+}
