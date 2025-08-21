@@ -5,6 +5,7 @@ let earth = document.getElementById("parallax-2");
 let robot = document.getElementById("parallax-3");
 let parallax4 = document.getElementById("parallax-4");
 let parallax5 = document.getElementById("parallax-5");
+let parallax6 = document.getElementById("parallax-6");
 
 window.addEventListener("scroll", () => {
     let value = window.scrollY;
@@ -37,4 +38,7 @@ window.addEventListener('scroll', function() {
 
     const aman = document.getElementById('parallax-5');
     if (aman) aman.style.transform = `translateY(${scrollY * 0.5}px)`;
+
+    const rover = document.getElementById('parallax-6');
+    if (rover) aman.style.transform = `translateY(${scrollY * 0.5}px)`;
 });
