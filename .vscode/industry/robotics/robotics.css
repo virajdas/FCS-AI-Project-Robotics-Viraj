@@ -3867,6 +3867,7 @@ input, select, textarea {
     padding: 2px 8px;
     margin: 0 2px;
 }
+
 .ai-timeline {
     position: relative;
     margin: 2em 0 2em 0.5em;
@@ -3926,4 +3927,13 @@ input, select, textarea {
     padding: 1em 1.2em;
     box-shadow: 0 2px 8px #232a34;
     line-height: 1.6;
+}
+#text-information {
+	position: absolute;
+	font-size: 3em;
+	color: white;
+	top: 35%;
+	text-align: left;
+	margin-left: 55%;
+	text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
 }
