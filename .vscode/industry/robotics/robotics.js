@@ -40,5 +40,5 @@ window.addEventListener('scroll', function() {
     if (aman) aman.style.transform = `translateY(${scrollY * 0.5}px)`;
 
     const rover = document.getElementById('parallax-6');
-    if (rover) aman.style.transform = `translateY(${scrollY * 0.5}px)`;
+    if (rover) rover.style.transform = `translateY(${scrollY * 0.4}px)`;
 });
