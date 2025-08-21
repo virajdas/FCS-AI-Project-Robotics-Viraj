@@ -3768,7 +3768,22 @@ input, select, textarea {
     .works-cited h2 { font-size: 1.2em; }
 }
 
-/* Add to robotics.css for Shakey the Robot emphasis */
+.side-by-side {
+	display: flex;
+	column-gap: 10%;
+}
+
+.side-by-side h2{
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.side-by-side .ai-block {
+	width: 50%;
+}
 
 .shakey-highlight-container {
     background: linear-gradient(120deg, #232b45 60%, #1a2238 100%,0.2);
