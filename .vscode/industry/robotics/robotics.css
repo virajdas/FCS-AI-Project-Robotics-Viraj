@@ -3776,3 +3776,7 @@ input, select, textarea {
 .side-by-side h2{
 	text-align: center;
 }
+
+.side-by-side .ai-block {
+	width: 50%;
+}
