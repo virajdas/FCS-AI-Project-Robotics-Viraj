@@ -3867,3 +3867,63 @@ input, select, textarea {
     padding: 2px 8px;
     margin: 0 2px;
 }
+.ai-timeline {
+    position: relative;
+    margin: 2em 0 2em 0.5em;
+    padding-left: 2.5em;
+    border-left: 4px solid #6ecaff;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+.ai-timeline-event {
+    display: flex;
+    align-items: center;   /* 🔑 ensures year, dot, and text are vertically aligned */
+    position: relative;
+    min-height: unset;     /* remove unnecessary min-height */
+    gap: 1.2em;            /* consistent spacing between year, dot, desc */
+}
+
+.ai-timeline-year-box {
+    min-width: 120px;
+    text-align: right;
+    padding-right: 1em;
+    display: flex;
+    align-items: center;   /* keeps year vertically centered */
+    justify-content: flex-end;
+}
+
+.ai-timeline-year {
+    font-size: 1.15em;
+    font-weight: 900;
+    color: #b3e0ff;
+    background: #10131a;
+    border-radius: 8px;
+    padding: 0.3em 0.8em;
+    box-shadow: 0 2px 12px #232a34;
+    letter-spacing: 0.03em;
+    line-height: 1.4;     /* ensures clean centering */
+}
+
+.ai-timeline-dot {
+    width: 1.2em;
+    height: 1.2em;
+    background: linear-gradient(135deg, #6ecaff 60%, #b3e0ff 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 16px #6ecaff;
+    border: 2px solid #232a34;
+    flex-shrink: 0;
+    /* remove margin tricks, let flexbox spacing do its job */
+}
+
+.ai-timeline-desc {
+    flex: 1;
+    font-size: 1.08em;
+    color: #eaf6ff;
+    background: rgba(24, 28, 38, 0.85);
+    border-radius: 12px;
+    padding: 1em 1.2em;
+    box-shadow: 0 2px 8px #232a34;
+    line-height: 1.6;
+}
